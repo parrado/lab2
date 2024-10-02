@@ -14,7 +14,7 @@ En ese sentido, la práctica de laboratorio contempla la creación y prueba de f
 
 ## Código base suministrado
 
-Se suministra el código base del servidor en el archivo [trivia_server.py] el cual contiene toda la funcionalidad para que éste opere dentro de una red de área local o en el mismo equipo de prueba. **Este archivo no debe ser modificado bajo ninguna circunstancia**.
+Se suministra el código base del servidor en el archivo [trivia_server.py](trivia_server.py) el cual contiene toda la funcionalidad para que éste opere dentro de una red de área local o en el mismo equipo de prueba. **Este archivo no debe ser modificado bajo ninguna circunstancia**.
 
 En ese sentido, el archivo [trivia_server.py] usa el archivo [users.py] que incluye definiciones de funciones las cuales deben ser implementadas en el laboratorio de acuerdo a los descrito en los comentarios del archivo. **La implementación de estas funciones y su correcto funcionamiento determina la evaluación de esta práctica de laboratorio y el lado del servidor del proyecto**.
 
