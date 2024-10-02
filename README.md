@@ -31,6 +31,11 @@ Para la realización de las pruebas debe poner a ejecutar primero el programa [t
 
 Tenga en cuenta que es posible [trivia_server.py](trivia_server.py) y [test_trivia_client.py](test_trivia_client.py) se ejecuten en computadores diferentes siempre y cuando los equipos se encuentren conectados a la misma red LAN cableada o inalámbrica. En ese caso basta con consultar la dirección IP del computador que está ejecutando [trivia_server.py](trivia_server.py) mediante el comando ipconfig como se muestra en la siguiente figura.
 
+
+<p align="center">
+<img  src="Captura de pantalla (2).png" width="800" >
+</p>
+
 La IP encontrada ahora debe sustituir "localhost" en la línea 6 de [test_trivia_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6)
 
 # Entrega del laboratorio
