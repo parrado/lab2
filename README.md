@@ -26,24 +26,24 @@ El servidor permite registrar usuarios con un nombre y contraseña, y una vez un
 * Actualizar su puntaje y obtener su puntaje actual.
 * Obtener la lista de usuarios conectados con sesión iniciada.
 * Solicitar una pregunta aleatoria desde una categoría.
-* Cerrar sesión
+* Cerrar sesión.
 
-También, se suministrán los archivos [trivia_client.py](trivia_client.py) y [test_trivia_client.py](test_trivia_client.py). [trivia_client.py](trivia_client.py) implementa la funcionalidad básica de los clientes (jugadores) para la conexión con el servidor por lo que **no debe ser modificado bajo ninguna circunstancia**. De otro lado, [test_trivia_client.py](test_trivia_client.py) es un archivo de prueba que se suministra para verificar el correcto funcionamiento del servidor y que puede ser modificado a gusto de los miembros del equipo. Para que [trivia_client.py](trivia_client.py) pueda funcionar correctamente se debe instalar el módulo de Python requests ejecutando el siguiente comando en una terminal:
+También, se suministran los archivos [trivia_client.py](trivia_client.py) y [test_trivia_client.py](test_trivia_client.py). En este caso, [trivia_client.py](trivia_client.py) implementa la funcionalidad básica de los clientes (jugadores) para la conexión con el servidor por lo que **no debe ser modificado bajo ninguna circunstancia**. De otro lado, [test_trivia_client.py](test_trivia_client.py) es un archivo de prueba que se suministra para verificar el correcto funcionamiento del servidor y que puede ser modificado a gusto de los miembros del equipo. Para que [trivia_client.py](trivia_client.py) pueda funcionar correctamente se debe instalar el módulo de Python requests ejecutando el siguiente comando en una terminal:
 
 ``` pip install requests```
 
 ## ¿Cómo realizar las pruebas?
 
-Para la realización de las pruebas debe poner a ejecutar primero el programa [trivia_server.py](trivia_server.py), la recomendación es verificar el correcto funcionamiento de las funciones, una a la vez. Posteriormente se puede ejecutar el programa [test_trivia_client.py](test_trivia_client.py), en caso de que se creen ventajas emergentes de Windows, por favor autorizar los servicios ya que los programas hacen uso de los servicios de red. 
+Para la realización de las pruebas debe ejecutar primero el programa [trivia_server.py](trivia_server.py), la recomendación es verificar el correcto funcionamiento de las funciones, una a la vez. Posteriormente se puede ejecutar el programa [test_trivia_client.py](test_trivia_client.py), en caso de que se creen ventanas emergentes de Windows solicitando permisos, por favor otorgarlos ya que los programas hacen uso de los servicios de red. 
 
-Tenga en cuenta que es posible [trivia_server.py](trivia_server.py) y [test_trivia_client.py](test_trivia_client.py) se ejecuten en computadores diferentes siempre y cuando los equipos se encuentren conectados a la misma red LAN cableada o inalámbrica. En ese caso basta con consultar la dirección IP del computador que está ejecutando [trivia_server.py](trivia_server.py) mediante el comando ipconfig como se muestra en la siguiente figura.
+Tenga en cuenta que es posible que [trivia_server.py](trivia_server.py) y [test_trivia_client.py](test_trivia_client.py) se ejecuten en computadores diferentes siempre y cuando los equipos se encuentren conectados a la misma red LAN cableada o inalámbrica. En ese caso basta con consultar la dirección IP del computador que está ejecutando [trivia_server.py](trivia_server.py) mediante el comando ipconfig como se muestra en la siguiente figura.
 
 
 <p align="center">
 <img  src="Captura de pantalla (2).png" width="800" >
 </p>
 
-La IP encontrada ahora debe sustituir "localhost" en la línea 6 de [test_trivia_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6)
+La IP encontrada debe sustituir "localhost" en la línea 6 de [test_trivia_client.py](https://github.com/parrado/lab2/blob/c80a0f73b9324b082ebea63a3377358d36a4c8d8/test_trivia_client.py#L6)
 
 # Entrega del laboratorio
 
