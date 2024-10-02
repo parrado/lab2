@@ -10,6 +10,8 @@ Uniquindío <br />
 
 Con esta práctica se iniciará el desarrollo del código fuente en Python del proyecto del espacio académico. En este caso, y de acuerdo a la arquitectura mostrada en la siguiente figura, se construirá el código del lado del servidor para la gestión de jugadores y preguntas.
 
+![Image](Programación-II-2024.png)
+
 En ese sentido, la práctica de laboratorio contempla la creación y prueba de funciones que hacen uso de archivos para la gestión de los jugadores y las preguntas, así como las demás estructuras de programación y tipos de datos estudiados hasta el momento. 
 
 ## Código base suministrado
