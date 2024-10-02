@@ -21,6 +21,13 @@ Se suministra el código base del servidor en el archivo [trivia_server.py](triv
 
 En ese sentido, el archivo [trivia_server.py](trivia_server.py) usa el archivo [users.py](users.py) que incluye definiciones de funciones las cuales deben ser implementadas en el laboratorio de acuerdo a los descrito en los comentarios del archivo. **La implementación de estas funciones y su correcto funcionamiento determina la evaluación de esta práctica de laboratorio y el lado del servidor del proyecto**.
 
+El servidor permite registrar usuarios con un nombre y contraseña, y una vez un usuario registrado inicie sesión podrá:
+
+* Actualizar su puntaje y obtener su puntaje actual.
+* Obtener la lista de usuarios conectados con sesión iniciada.
+* Solicitar una pregunta aleatoria desde una categoría.
+* Cerrar sesión
+
 También, se suministrán los archivos [trivia_client.py](trivia_client.py) y [test_trivia_client.py](test_trivia_client.py). [trivia_client.py](trivia_client.py) implementa la funcionalidad básica de los clientes (jugadores) para la conexión con el servidor por lo que **no debe ser modificado bajo ninguna circunstancia**. De otro lado, [test_trivia_client.py](test_trivia_client.py) es un archivo de prueba que se suministra para verificar el correcto funcionamiento del servidor y que puede ser modificado a gusto de los miembros del equipo. Para que [trivia_client.py](trivia_client.py) pueda funcionar correctamente se debe instalar el módulo de Python requests ejecutando el siguiente comando en una terminal:
 
 ``` pip install requests```
